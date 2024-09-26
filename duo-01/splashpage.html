@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="webStyle">
+    <table>
+        <tr>
+            <td>
+    <ul class="menu">
+    <li style="margin-left: 50px; margin-bottom: 75px;"><img src="spritesWIP/logo.png" alt=""></li>
+
+    <li>    <div class="buttonContainer">
+
+        <a href="level1.html"><img src="spritesWIP/button.png" alt="Start-game" style="width: 50%;" onmouseover="this.src='spritesWIP/buttonHover.png';" onmouseout="this.src='spritesWIP/button.png';"></a>
+
+        <b class="centeredText">Start Game</b>
+        
+    </div>     </li>
+    
+
+    <li>    <div class="buttonContainer">
+
+        <img src="spritesWIP/button.png" alt="How-to-play" style="width: 50%;" onmouseover="this.src='spritesWIP/buttonHover.png';" onmouseout="this.src='spritesWIP/button.png';" onclick="createHTP()">
+
+        <b class="centeredText">How To Play</b>
+
+    </div>     </li>
+
+
+    <li>    <div class="buttonContainer">
+
+        <img src="spritesWIP/button.png" alt="Beastiary" style="width: 50%;" onmouseover="this.src='spritesWIP/buttonHover.png';" onmouseout="this.src='spritesWIP/button.png';" onclick="createBeastiary()">
+
+        <b class="centeredText">Beastiary</b>
+
+    </div>    </li>
+            </td>
+            <td style="width: 900px;"><p>.</p></td>
+            <td style="width: fit-content; align-content: end; align-items: end; right: 0;">
+        <div class="controls">
+            <img src="spritesWIP/controls.png" alt="Controls" style="width: 300px;">
+            <table>
+                <tr>
+                    <td><img src="spritesWIP/Aim.png" alt="Aim" style="width: 150px;"></td>
+                    <td><img src="spritesWIP/mouse.png" alt="Mouse"></td>
+                </tr>
+                <tr>
+                    <td><img src="spritesWIP/Shoot.png" alt="Shoot" style="width: 150px;"></td>
+                    <td><img src="spritesWIP/leftClick.png" alt="Left-click"></td>
+                </tr>
+                <tr>
+                    <td><img src="spritesWIP/Reload.png" alt="Reload" style="width: 150px;"></td>
+                    <td><img src="spritesWIP/rKey.png" alt="R-key"></td>
+                </tr>
+            </table>
+        </div>
+            </td>
+        </tr>
+</ul>
+</table>
+<img src="spritesWIP/volume.png" alt="Toggle Volume" id="volumeBut" onclick="sound()">
+<audio id="bgsound" src="sounds/waiting-time-175800.mp3" autoplay loop></audio>
+</body>
+<script src="splashpage.js"></script>
+</html>

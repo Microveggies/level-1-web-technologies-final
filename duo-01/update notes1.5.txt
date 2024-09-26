@@ -1,0 +1,9 @@
+----------------------------First Commit Updates-------------------------------------
+Author: Adam Caughey(40399033)
+
+Content added:
+    -bullets now decrease on miss aswell as hit
+    -ui layout has been successfully adjust for improved layout
+
+known bugs/issues:
+    -reload gif has stopped animating

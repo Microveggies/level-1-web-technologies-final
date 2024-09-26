@@ -1,0 +1,9 @@
+----------------------------First Commit Updates-------------------------------------
+Author: Zack Keane(40399135)
+
+Content added:
+    -Fixed collision bug with bat divs
+    -Fixed bat pathing 
+
+known bugs/issues:
+    -None (fingers crossed)

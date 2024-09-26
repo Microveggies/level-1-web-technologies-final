@@ -1,0 +1,36 @@
+first meeting:
+
+held Friday March 22nd at home of partner to discuss approach to development and game concept.
+
+game concept was agreed to be inspired by H.P. Lovecraft with numerous enemy designs thought of
+
+        - floating eyeball: large circular eyeall moving straigt horizontally makes a god beginning target for the slower portions of the game
+        - human eyeball: same as floating eyeall however with a less monstrous design to be included in later levels where the player will lose points for shooting it
+        - bats: faster targets to be introduced in the mid game moving in more complex swooping arcs across the screen in turn rewarding more points
+        - pigeons: friendly version of the bats cause the player to lose points when shooting
+        - tentacle: larger in size to compensate for huge speed it will sweep horizontal across the bottom of the screen and reward the most points
+
+other game concepts decided were:
+        - rather than enemies having increasing hp pool we would instead have limited bullets with a sizeably timed reload. this plays in to a gunslinging power fantasy more than spamming
+          similar targets
+        - a small glossary of enemies would be displayable on the splash screen under bestiary
+        - a possible insanity meter was discussed increasing on missed ullets and friendly enemies hit at a critical limit this would cause the player to lose
+
+meeting concluded with rather enjoyable sandwiches and rough outline of how to assign work:
+        - partner  agreed to handle splash screen so i in turn decided to handle end of game page
+        - I elected to handle the creation of level one then partner took level two as it would have a greater increase between stages compared to three
+        - finally stage 3 and tweaks to UI such as layout and sounds were to be divided up at our descretion
+
+after I began implementing level one and with the aid of some live coding with my partner to resolve issues with hit detection and loading of gifs aswell as handeling of bullot loss and reloading we agreed to have
+another in person meeting on April 12th
+
+meeting did not include alterations to the work discussed in the previous  meeting with the exception of confirming that the madness meter will not be implemented. This meeting
+was arranged to talk partner through the complexities of of the level one implementation so they had a firm grasp on the inner workings of the level to begin creating level 2 
+during this meeting partner expressed interest in helping to create sprite assets for the game so the later haf of the meeting was spent showing the asics of asesprite software
+and animating using it.
+
+as of april 17th level two had een implemented and partner and i mostly were working on optimizations and the additionally enemies and speed needed for level 3. We had one call over discord
+where partner expressed desire to work on finishing the extra buttons on the splash(how to play and bestiary) and creating assets for death animations and also the volume buttons and control icons
+I opted to add the final enemy for level 3 and alter the layout of endscreen.
+
+once the enemy was added partner optimised pathing and i worked to finish the functionality for his volume button sprite.

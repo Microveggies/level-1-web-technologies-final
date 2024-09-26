@@ -1,0 +1,298 @@
+body {
+    cursor: url(spritesWIP/Crosshair.png), auto;
+    overflow: hidden;
+}
+
+.eyeball {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.tentacle {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.bat {
+    position: absolute;
+    border-radius: 50%;
+}
+
+#engine {
+    background-image: url(spritesWIP/bgimagegame.png);
+    width: 1920px;
+    height: 1080px;
+    background-size: cover;
+}
+
+#UI {
+    background-image: url('spritesWIP/Tentacle_overlay.png');
+    width: 1920px;
+    height: 200px;
+    background-size: 1920px 205px;
+    background-repeat: no-repeat;
+    background-color: sandybrown;
+    padding: 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-family:fantasy;
+    margin-bottom: 20px;
+
+}
+
+#UI .bullets {
+    display: flex;
+    align-items: center;
+}
+
+#webStyle {
+    background-image: url("spritesWIP/SplashBG.png" );
+    position: absolute;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: auto;
+}
+
+.buttonContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centeredText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+    pointer-events: none;
+}
+
+.button :hover {
+    src: url(spritesWIP/buttonHover.png);
+}
+
+.menu {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.menu li {
+    padding-left: 0;
+    margin-left: 0;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.controls {
+    position: absolute;
+    top: 50px;
+    align-content: end;
+    right: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+.score {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+audio:not([controls]) {
+    display: flex;
+}
+
+#endpage{
+    background-image: url(spritesWIP/bgimagegame.png);
+    color: rgb(206, 195, 180);
+    text-shadow: -2px -2px 0 #000,  
+    2px -2px 0 #000,
+   -2px  2px 0 #000,
+    2px  2px 0 #000;;
+    font-family: fantasy;
+}
+#endScreen {
+    background-image: url(spritesWIP/frameendscreen.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.stats {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(242, 158, 113, 0.437);
+    border: thick lightgray solid;
+    border-radius: 10%;
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px; 
+    margin-top: 20px;
+}
+
+.stats-column {
+    width: 50vw;
+    flex: 1;
+    padding-left: 20px;
+    margin-left: 0;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+#highScoreList {
+    margin-top: 0px;
+    width: 20vw;
+}
+
+#highScoreList li{
+    width: 15vw;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.input-container {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5%;
+    text-align: center;
+    width: 93%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.score,#score{
+    width: 10vw;
+}
+#enemiesShot{
+    width: 10vw;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#friendsShot{
+    width: 10vw;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#Shot{
+    width: 10vw;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#volumeBut {
+    bottom: 0;
+    right: 0;
+    opacity: 20%;
+    margin-top: 40vw;
+}
+#volumeBut:hover{
+    opacity: 100%;
+}
+
+.box {
+    width: 75%;
+    height: 75%;
+    position: fixed;
+    top: 12.5%; 
+    left: 12.5%; 
+    
+    border-radius: 10px;
+    background-color: rgb(24, 35, 45);
+    border: thin solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+
+.overlayExitText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 12px;
+    color: white;
+}
+
+.overlay td{
+    background-color: rgb(49, 103, 150);
+    border:thick black solid;
+    border-radius: 10%;
+}
+
+.overlay, .htp{
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+    text-shadow: -2px -2px 0 #000,  
+    2px -2px 0 #000,
+   -2px  2px 0 #000,
+    2px  2px 0 #000;;
+    margin-left: 10px;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}

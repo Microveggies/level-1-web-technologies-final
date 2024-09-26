@@ -1,0 +1,20 @@
+----------------------------First Commit Updates-------------------------------------
+Author: Adam Caughey(40399033)
+
+Content added:
+- simple placeholder sprites to check functionality
+- level one mostly functional
+        -basic Ui elements such as timer score and bullet count
+        -bullet reload function bound to R key
+        -first basic target type, a straight moving eyeball
+        -basic enemy destruction, destroyed on click or when off screen
+        -ability to be spawned left or right of the screen to travel
+
+--------------------------------------------------------------------------------------
+content still to add to level 1:
+-functionality to missing the enemies. (currently does not reduce bullets)
+-improve sprites
+-improve formatting of UI elements
+-ensure eyeballs spawn only below the UI div
+-when level 2 is added gameend function may need updated to be function dependant on file titling
+---------------------------------------------------------------------------------------

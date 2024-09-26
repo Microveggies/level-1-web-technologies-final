@@ -1,0 +1,14 @@
+----------------------------First Commit Updates-------------------------------------
+Author: Zack Keane(40399135)
+
+Content added:
+    -Splash Page
+    -Interactible buttons
+    -Buttons are now highlighted upon pointer hover
+    -Fixed button text causing interaction blank spots on buttons
+    -Controls added on splash page
+    -Level 2 created
+    -Added Bat enemy
+
+known bugs/issues:
+    -Bat divs causing collision issues on level 2, eyeballs are moving when they aren't supposed to
